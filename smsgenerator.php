@@ -5,8 +5,6 @@ if (!function_exists('Sende')) {
         // Force the use of the correct gateway filename from your screenshot
         if (file_exists('Gateway.php')) {
             require_once('Gateway.php');
-        } else {
-            require_once('Gateway.php');
         }
 
         // ==========================================================
