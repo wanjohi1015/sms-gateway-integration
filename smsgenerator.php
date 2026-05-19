@@ -2,7 +2,7 @@
 // Ensure the sender function is only declared once globally to prevent fatal crashes
 if (!function_exists('Sende')) {
     function sender($recipients, $message) {
-        // Force the use of the correct gateway filename from your screenshot
+      
         if (file_exists('Gateway.php')) {
             require_once('Gateway.php');
         }
