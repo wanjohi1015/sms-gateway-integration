@@ -7,13 +7,11 @@ if (!function_exists('Sende')) {
             require_once('Gateway.php');
         }
 
-        // ==========================================================
-        // CRITICAL: COPY AND PASTE FROM YOUR TEXTSMS ACCOUNT HERE
-        // ==========================================================
+      
         $PartnerID = "xxxxx"; 
         $Apikey    = "xxxxxxxxxxxxxxxxxxxx"; 
         $Shortcode = "xxxxxxxxx"; 
-        // ==========================================================
+    
 
         try {
             // This matches the exact class name and variable order from your screen
